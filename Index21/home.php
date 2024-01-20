@@ -20,6 +20,8 @@
     <form action="home.php" method="post">
         <input type="submit" name="logout" value="logout">
     </form>
+
+    <p>test</p>
 </body>
 </html>
 

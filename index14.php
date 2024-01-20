@@ -45,10 +45,6 @@
                 break;
             default:
                 echo "Please make a selection";
-        }
-
-        
-        
+        }   
     }
- 
 ?>

@@ -1,0 +1,199 @@
+.truc {
+    background-color: red;
+}
+
+
+:root {
+	--accent-color: black;
+
+	--text-color: #263238;
+	--body-color: #80deea;
+	--main-font: 'salsa';
+	--font-bold: 700;
+	--font-regular: 400;
+}
+* { box-sizing: border-box }
+
+p {
+	font-family: 'salsa', 'arial';
+}
+body {
+	display: flex;
+	flex-direction: column;
+	color: var(--text-color);
+	background-color: var(--body-color);
+	font-family: var(--main-font), Arial;
+	font-weight: var(--font-regular);
+	justify-content: center;
+	align-items: center;
+}
+main{ 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+h1 { font-weight: var(--font-bold) }
+input, 
+button {
+	border: none;
+	background: none;
+	outline: 0;
+}
+button {cursor: pointer}
+
+body {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+button:hover{
+	transform: scale(110%);
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    height: 70px;
+	max-width: 100%;
+	box-shadow: 0px 1px rgba(0, 0, 0, 0.18);
+}
+
+.nom_site {
+	margin-left: 20px;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+}
+
+.log_div {
+	display: flex;
+	flex-direction: row;
+}
+
+.Signin_button {
+	font-family: 'salsa', 'arial';
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.login_button {
+	font-family: 'salsa', 'arial';
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.favoris {
+	display: flex;
+	flex-direction: column;
+	height: inherit;
+	width: fit-content;
+	width: 85%;
+	position: relative;
+}
+
+.img_fav {
+	height: 500px;
+	width: 100%;
+	border-radius: 30px;
+	display: inline;
+}
+
+.text_fav {
+	display: flex;
+	flex-direction: column;
+	position:absolute;
+	left: 40px;
+	top: 10px;
+}
+
+.titre_fav {
+	color:#fff;
+	margin-bottom: 5px;
+}
+
+.p_fav {
+	color:#fff;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.but_fav {
+	display: block;
+	color:#fff;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 25px;
+	background-color: #ff8300;
+	margin-top: 10px;
+}
+
+
+
+.aff_voy {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.voyage {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	flex: 1rem 2rem;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #fff;
+	border-radius: 25px;
+	box-shadow: 0px 1px rgba(0, 0, 0, 0.18);
+}
+
+.img_voy {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.img_dest {
+	height: 85%;
+	width: 85%;
+	border-radius: 25px;
+}
+
+.info_voy {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	/* justify-content: center;
+	align-items: center; */
+}
+
+.titre_voy {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.prix {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.desc_voy {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.reservation_bouton {
+	background-color: rgb(160, 246, 160);
+	width: 70px;
+	height: 30px;
+	border-radius: 25px;
+	font-family: 'salsa', 'arial';
+	margin-top: 8px;
+}
